@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const AboutUs = () => {
   return (
     <div className="mx-auto flex flex-col justify-between py-16 md:gap-32 gap-24 w-full items-center px-4">
@@ -94,9 +95,11 @@ const AboutUs = () => {
             <button className="bg-yellow-400 font-bold cursor-pointer text-white px-6 py-3 rounded hover:bg-yellow-600">
               Get Started
             </button>
+            <Link href="/contactUs">
             <button className="bg-transparent hover:bg-yellow-400 cursor-pointer border-2 border-yellow-400 font-bold text-white px-6 py-3 rounded hover:bg-opacity-20">
               Contact us
             </button>
+            </Link>
           </div>
         </div>
       </div>

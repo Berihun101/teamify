@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className=" bg-transparent px-4 py-8">
         <div className="container mx-auto flex justify-between items-center">
-       
+           <Link href='/' >
             <Image
                 src="/images/Teamify - 1 - Logo Name White Orange I 1.png"
                 alt="Logo"
@@ -16,6 +16,7 @@ const Navbar = () => {
                 height={50}
                 className="h-10 w-auto"
             />
+            </Link>
           
             
             <div className="space-x-24 lg:flex hidden">

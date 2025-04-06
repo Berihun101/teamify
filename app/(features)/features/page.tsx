@@ -58,7 +58,9 @@ const Features = () => {
         <li className="text-lg font-bold">Unlimited Projects</li>
         <li className="text-lg font-bold">Unlimited Projects</li>
       </ul>
+      <Link href="/orderSummary">
       <button className="w-full rounded-4xl bg-yellow-500 text-white cursor-pointer py-3 text-center mt-4">Choose Plan</button> 
+      </Link>
     </div>
   </div>
 
@@ -84,10 +86,11 @@ const Features = () => {
         <li className="text-lg font-bold text-white">Unlimited Projects</li>
         <li className="text-lg font-bold text-white">Unlimited Projects</li>
       </ul>
-      
-      <button className="w-full rounded-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-center mt-4 transition-colors">
+      <Link href="/orderSummary">
+      <button className="w-full cursor-pointer rounded-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-center mt-4 transition-colors">
         Choose Plan
       </button>
+      </Link>
     </div>
   </div>
 </div>
